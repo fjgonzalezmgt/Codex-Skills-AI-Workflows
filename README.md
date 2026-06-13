@@ -1,37 +1,37 @@
 # Codex Skills & AI Workflows
 
-Repositorio maestro para organizar skills, flujos de trabajo y activos reutilizables de IA aplicada a trabajo tecnico.
+Repositorio maestro de mi línea de trabajo para organizar skills, flujos asistidos por IA y activos reutilizables aplicados a trabajo técnico.
 
-El objetivo no es acumular experimentos sueltos. El objetivo es construir una capa de capacidades reutilizables para acelerar trabajo profesional en calidad, excelencia operacional, analitica, documentacion tecnica y automatizacion asistida por IA.
+Estoy usando este espacio para construir, ordenar y documentar una capa propia de capacidades reutilizables para acelerar trabajo profesional en calidad, excelencia operacional, analítica, documentación técnica y automatización asistida por IA.
 
-Este repositorio funciona como indice estrategico de la familia de repos relacionados con Codex Skills y AI Workflows.
+El objetivo no es acumular pruebas sueltas. El objetivo es convertir criterio técnico en herramientas, plantillas, diagramas, flujos y skills que pueda reutilizar en proyectos reales.
 
 ---
 
-## Proposito
+## Propósito
 
-Crear una estructura ordenada para desarrollar, documentar y mantener skills que ayuden a convertir criterio tecnico en artefactos utiles:
+Este repo organiza una línea de trabajo en desarrollo orientada a crear skills que ayuden a producir artefactos técnicos útiles:
 
 - diagramas editables;
-- plantillas tecnicas;
+- plantillas técnicas;
 - automatizaciones documentales;
-- flujos de analisis;
+- flujos de análisis;
 - generadores de activos;
-- asistentes especializados para calidad, OPEX, analitica y sistemas de gestion.
+- asistentes especializados para calidad, OPEX, analítica y sistemas de gestión.
 
-La tecnologia aqui se entiende como soporte al criterio profesional. No reemplaza validacion, trazabilidad ni responsabilidad tecnica.
+La tecnología aquí se entiende como soporte al criterio profesional. No reemplaza validación, trazabilidad ni responsabilidad técnica.
 
 ---
 
-## Ubicacion dentro del portfolio
+## Ubicación dentro del portfolio
 
-Este repositorio pertenece a la linea:
+Este repositorio pertenece a la línea:
 
 ```text
 Codex Skills / AI Workflows
 ```
 
-Dentro del ecosistema general de GitHub, la estructura queda asi:
+Dentro del ecosistema general de GitHub, esta es la estructura que estoy construyendo:
 
 ```text
 fjgonzalezmgt/
@@ -42,12 +42,12 @@ Core Portfolio
 └── operational-analytics-automation
 
 Codex Skills / AI Workflows
-├── Codex-Skills-AI-Workflows        # indice maestro de esta linea
-├── drawingskills                    # skills para crear diagramas draw.io editables desde Codex
-├── codex-qms-skills                 # WIP: QMS, CAPA, auditorias, documentacion
-├── codex-quality-tools-skills       # WIP: SPC, MSA, FMEA, DOE, causa raiz
-├── codex-analytics-skills           # WIP: analitica, BI, datos y automatizacion
-└── codex-documentation-skills       # WIP: guias, reportes, SOPs, formatos tecnicos
+├── Codex-Skills-AI-Workflows        # índice maestro de esta línea
+├── drawingskills                    # activo: diagramas draw.io editables desde Codex
+├── codex-qms-skills                 # en desarrollo: QMS, CAPA, auditorías, documentación
+├── codex-quality-tools-skills       # en desarrollo: SPC, MSA, FMEA, DOE, causa raíz
+├── codex-analytics-skills           # en desarrollo: analítica, BI, datos y automatización
+└── codex-documentation-skills       # en desarrollo: guías, reportes, SOPs, formatos técnicos
 
 Applied Analytics Projects
 ├── voice-of-customer-analytics
@@ -62,11 +62,25 @@ Learning / Experiments
 
 ---
 
-## Repos activos
+## Estado actual de la línea
+
+| Repo | Estado | Función |
+|---|---|---|
+| `drawingskills` | Activo | Crear diagramas editables de draw.io/diagrams.net desde Codex. |
+| `codex-qms-skills` | En desarrollo | Skills para QMS, CAPA, auditorías, evidencia y documentación técnica. |
+| `codex-quality-tools-skills` | En desarrollo | Skills para herramientas de calidad como SPC, MSA, FMEA, DOE y causa raíz. |
+| `codex-analytics-skills` | En desarrollo | Skills para análisis de datos, KPIs, validación de consistencia y documentación de pipelines. |
+| `codex-documentation-skills` | En desarrollo | Skills para guías, reportes técnicos, SOPs, checklists y materiales de formación. |
+
+La intención es avanzar esta línea de forma gradual. Primero consolido casos de uso claros, después los convierto en skills estables y finalmente los separo en repos propios cuando ya tienen estructura, ejemplos y criterios de validación.
+
+---
+
+## Repo activo
 
 ### drawingskills
 
-Libreria de skills para crear diagramas editables de draw.io/diagrams.net desde Codex.
+Librería de skills para crear diagramas editables de draw.io/diagrams.net desde Codex.
 
 Incluye capacidades para:
 
@@ -74,15 +88,15 @@ Incluye capacidades para:
 - mejora continua;
 - calidad;
 - SIPOC, VSM, DMAIC, PDCA, A3, Ishikawa/fishbone y swimlanes;
-- arquitectura tecnica;
+- arquitectura técnica;
 - infraestructura, cloud y Kubernetes;
-- analitica, BI, lakehouse y MLOps;
+- analítica, BI, lakehouse y MLOps;
 - bibliotecas reutilizables de shapes.
 
 Uso principal:
 
 ```text
-Convertir descripciones tecnicas en diagramas editables, versionables y reutilizables.
+Convertir descripciones técnicas en diagramas editables, versionables y reutilizables.
 ```
 
 Repositorio:
@@ -93,89 +107,87 @@ https://github.com/fjgonzalezmgt/drawingskills
 
 ---
 
-## Trabajo en proceso
+## Skills en desarrollo
 
-Estos repos forman parte del backlog activo de la linea **Codex Skills / AI Workflows**. Se documentan aqui para mantener visible la arquitectura objetivo y evitar que cada skill crezca de forma aislada.
-
-No todos tienen que nacer al mismo tiempo. Cada uno debe avanzar cuando exista un caso de uso suficientemente claro, ejemplos reutilizables y criterios de validacion.
+Esta sección documenta los frentes que estoy construyendo dentro de esta línea. No son ideas externas ni una lista aspiracional; son áreas de trabajo que iré convirtiendo en repos o módulos conforme maduren.
 
 ### codex-qms-skills
 
-Skills para asistir trabajo relacionado con sistemas de gestion de calidad.
+Trabajo en desarrollo para asistir tareas relacionadas con sistemas de gestión de calidad.
 
-Capacidades previstas:
+Capacidades en construcción:
 
-- analisis de procedimientos;
-- preparacion de auditorias;
-- clasificacion de hallazgos;
+- análisis de procedimientos;
+- preparación de auditorías;
+- clasificación de hallazgos;
 - soporte a CAPA;
 - trazabilidad documental;
-- revision de evidencia;
+- revisión de evidencia;
 - estructura de SOPs e instructivos.
 
 ### codex-quality-tools-skills
 
-Skills para herramientas clasicas de calidad y mejora continua.
+Trabajo en desarrollo para herramientas clásicas de calidad y mejora continua.
 
-Capacidades previstas:
+Capacidades en construcción:
 
 - SPC;
 - MSA / Gage R&R;
 - FMEA / AMEF;
 - DOE;
-- causa raiz;
+- causa raíz;
 - Pareto;
 - AQL;
 - planes de control;
-- analisis de capacidad.
+- análisis de capacidad.
 
 ### codex-analytics-skills
 
-Skills para analitica aplicada a operaciones.
+Trabajo en desarrollo para analítica aplicada a operaciones.
 
-Capacidades previstas:
+Capacidades en construcción:
 
 - limpieza y perfilado de datos;
-- generacion de KPIs;
-- validacion de consistencia;
-- analisis exploratorio;
-- preparacion de datasets;
-- interpretacion de resultados;
-- documentacion de pipelines.
+- generación de KPIs;
+- validación de consistencia;
+- análisis exploratorio;
+- preparación de datasets;
+- interpretación de resultados;
+- documentación de pipelines.
 
 ### codex-documentation-skills
 
-Skills para convertir conocimiento tecnico en documentos consistentes.
+Trabajo en desarrollo para convertir conocimiento técnico en documentos consistentes.
 
-Capacidades previstas:
+Capacidades en construcción:
 
-- generacion de guias;
-- reportes tecnicos;
+- generación de guías;
+- reportes técnicos;
 - checklists;
-- formatos de auditoria;
-- documentacion de proyectos;
-- resumenes ejecutivos;
-- materiales de formacion.
+- formatos de auditoría;
+- documentación de proyectos;
+- resúmenes ejecutivos;
+- materiales de formación.
 
 ---
 
 ## Criterios para activar un nuevo repo de skills
 
-Antes de activar un nuevo repositorio como parte de esta linea, debe existir una respuesta clara a estas preguntas:
+Antes de separar un frente de trabajo en un repo propio, valido estas preguntas:
 
-1. Que trabajo tecnico acelera?
-2. Que artefacto produce?
-3. Que criterio profesional requiere validacion humana?
-4. Que datos, entradas o contexto necesita?
-5. Que riesgos existen si se usa mal?
-6. Como se valida la salida?
-7. Puede reutilizarse en mas de un proyecto?
+1. Qué trabajo técnico acelera?
+2. Qué artefacto produce?
+3. Qué criterio profesional requiere validación humana?
+4. Qué datos, entradas o contexto necesita?
+5. Qué riesgos existen si se usa mal?
+6. Cómo se valida la salida?
+7. Puede reutilizarse en más de un proyecto?
 
-Si la respuesta no es clara, conviene mantenerlo como experimento dentro de un repo existente antes de separarlo.
+Si la respuesta no es clara, lo mantengo como experimento o módulo interno antes de convertirlo en repo independiente.
 
 ---
 
-## Estandar minimo de cada skill repo
+## Estándar mínimo de cada skill repo
 
 Cada repositorio de skills debe incluir:
 
@@ -190,19 +202,19 @@ tests/ or validation/
 
 Y documentar:
 
-- proposito;
+- propósito;
 - alcance;
-- instalacion;
+- instalación;
 - prompts de uso;
 - ejemplos;
-- criterios de validacion;
-- limites conocidos;
+- criterios de validación;
+- límites conocidos;
 - riesgos de uso;
 - oportunidades futuras.
 
 ---
 
-## Principios de diseno
+## Principios de diseño
 
 ### 1. Artefactos editables sobre salidas cerradas
 
@@ -210,28 +222,28 @@ Siempre que sea posible, las skills deben producir archivos editables, versionab
 
 Ejemplos:
 
-- `.drawio` en lugar de imagenes planas;
+- `.drawio` en lugar de imágenes planas;
 - `.md` en lugar de texto suelto;
 - `.json` o `.yaml` cuando convenga trazabilidad;
 - scripts reutilizables en lugar de pasos manuales repetidos.
 
-### 2. Criterio tecnico antes que automatizacion
+### 2. Criterio técnico antes que automatización
 
-Una skill solo tiene valor si mejora una decision, reduce friccion o aumenta consistencia.
+Una skill solo tiene valor si mejora una decisión, reduce fricción o aumenta consistencia.
 
 Automatizar sin criterio solo acelera variabilidad.
 
-### 3. Validacion explicita
+### 3. Validación explícita
 
-Todo flujo debe tener algun mecanismo de validacion:
+Todo flujo debe tener algún mecanismo de validación:
 
-- validacion estructural;
-- revision humana;
+- validación estructural;
+- revisión humana;
 - pruebas de ejemplo;
-- criterios de aceptacion;
-- comparacion contra fuentes o requisitos.
+- criterios de aceptación;
+- comparación contra fuentes o requisitos.
 
-### 4. Separacion entre exploracion y capacidad estable
+### 4. Separación entre exploración y capacidad estable
 
 No todo experimento merece convertirse en skill.
 
@@ -239,67 +251,67 @@ Una skill debe ser reutilizable, explicable y suficientemente estable para docum
 
 ---
 
-## Relacion con Quality Analytics
+## Relación con Quality Analytics
 
-Esta linea de repos complementa el posicionamiento de Quality Analytics:
+Esta línea de repos complementa el posicionamiento de Quality Analytics:
 
 ```text
 Calidad + OPEX + Data Analytics + IA aplicada
 ```
 
-Su funcion es convertir conocimiento tecnico en capacidades operativas reutilizables.
+Su función es convertir conocimiento técnico en capacidades operativas reutilizables.
 
-La aplicacion principal esta en:
+La aplicación principal está en:
 
-- sistemas de gestion de calidad;
+- sistemas de gestión de calidad;
 - mejora continua;
-- analitica aplicada;
-- documentacion tecnica;
-- automatizacion de reportes;
-- visualizacion de procesos;
+- analítica aplicada;
+- documentación técnica;
+- automatización de reportes;
+- visualización de procesos;
 - soporte a decisiones operativas.
 
 ---
 
-## Roadmap inicial
+## Roadmap de trabajo
 
-### Fase 1 - Ordenar base
+### Fase 1 - Base de la línea
 
-- Consolidar este repo como indice maestro.
-- Documentar `drawingskills` como primer repo activo de la linea.
-- Definir convencion de nombres para repos en trabajo.
+- Consolidar este repo como índice maestro.
+- Mantener `drawingskills` como primer repo activo de la línea.
+- Definir convención de nombres para repos en desarrollo.
 
-### Fase 2 - Estandarizar estructura
+### Fase 2 - Estandarización
 
 - Crear plantilla base para repos de skills.
-- Definir README minimo.
-- Crear checklist de validacion.
+- Definir README mínimo.
+- Crear checklist de validación.
 - Documentar estructura recomendada de carpetas.
 
-### Fase 3 - Expandir capacidades
+### Fase 3 - Desarrollo de nuevos frentes
 
-- Activar skills para QMS.
-- Activar skills para herramientas de calidad.
-- Activar skills para analitica aplicada.
-- Activar skills para documentacion tecnica.
+- Desarrollar skills para QMS.
+- Desarrollar skills para herramientas de calidad.
+- Desarrollar skills para analítica aplicada.
+- Desarrollar skills para documentación técnica.
 
-### Fase 4 - Integrar con activos profesionales
+### Fase 4 - Integración con activos profesionales
 
-- Conectar skills con guias, plantillas y casos de Quality Analytics.
+- Conectar skills con guías, plantillas y casos de Quality Analytics.
 - Crear ejemplos orientados a problemas reales de calidad, operaciones y datos.
-- Publicar casos demostrables en el portfolio tecnico.
+- Publicar casos demostrables en el portfolio técnico.
 
 ---
 
-## Convencion de nombres
+## Convención de nombres
 
-Para repos de esta linea:
+Para repos de esta línea:
 
 ```text
 codex-[dominio]-skills
 ```
 
-Repos en trabajo:
+Repos en desarrollo:
 
 ```text
 codex-qms-skills
@@ -310,13 +322,13 @@ codex-powerbi-skills
 codex-python-automation-skills
 ```
 
-Para el repo existente `drawingskills`, una opcion futura seria renombrarlo a:
+Para el repo existente `drawingskills`, una opción futura sería renombrarlo a:
 
 ```text
 codex-drawio-skills
 ```
 
-No es obligatorio hacerlo de inmediato. Lo importante es mantener clara su funcion dentro de esta linea.
+No es obligatorio hacerlo de inmediato. Lo importante es mantener clara su función dentro de esta línea.
 
 ---
 
@@ -324,4 +336,4 @@ No es obligatorio hacerlo de inmediato. Lo importante es mantener clara su funci
 
 Este repositorio no reemplaza los proyectos principales del portfolio.
 
-Funciona como capa de infraestructura profesional para construir, probar y organizar skills que puedan apoyar mejores decisiones, documentacion mas consistente y artefactos tecnicos reutilizables.
+Funciona como capa de infraestructura profesional para construir, probar y organizar skills que puedan apoyar mejores decisiones, documentación más consistente y artefactos técnicos reutilizables.
