@@ -44,10 +44,10 @@ Core Portfolio
 Codex Skills / AI Workflows
 ├── Codex-Skills-AI-Workflows        # indice maestro de esta linea
 ├── drawingskills                    # skills para crear diagramas draw.io editables desde Codex
-├── codex-qms-skills                 # futuro: QMS, CAPA, auditorias, documentacion
-├── codex-quality-tools-skills       # futuro: SPC, MSA, FMEA, DOE, causa raiz
-├── codex-analytics-skills           # futuro: analitica, BI, datos y automatizacion
-└── codex-documentation-skills       # futuro: guias, reportes, SOPs, formatos tecnicos
+├── codex-qms-skills                 # WIP: QMS, CAPA, auditorias, documentacion
+├── codex-quality-tools-skills       # WIP: SPC, MSA, FMEA, DOE, causa raiz
+├── codex-analytics-skills           # WIP: analitica, BI, datos y automatizacion
+└── codex-documentation-skills       # WIP: guias, reportes, SOPs, formatos tecnicos
 
 Applied Analytics Projects
 ├── voice-of-customer-analytics
@@ -93,13 +93,17 @@ https://github.com/fjgonzalezmgt/drawingskills
 
 ---
 
-## Repos futuros sugeridos
+## Trabajo en proceso
+
+Estos repos forman parte del backlog activo de la linea **Codex Skills / AI Workflows**. Se documentan aqui para mantener visible la arquitectura objetivo y evitar que cada skill crezca de forma aislada.
+
+No todos tienen que nacer al mismo tiempo. Cada uno debe avanzar cuando exista un caso de uso suficientemente claro, ejemplos reutilizables y criterios de validacion.
 
 ### codex-qms-skills
 
 Skills para asistir trabajo relacionado con sistemas de gestion de calidad.
 
-Posibles capacidades:
+Capacidades previstas:
 
 - analisis de procedimientos;
 - preparacion de auditorias;
@@ -113,7 +117,7 @@ Posibles capacidades:
 
 Skills para herramientas clasicas de calidad y mejora continua.
 
-Posibles capacidades:
+Capacidades previstas:
 
 - SPC;
 - MSA / Gage R&R;
@@ -129,7 +133,7 @@ Posibles capacidades:
 
 Skills para analitica aplicada a operaciones.
 
-Posibles capacidades:
+Capacidades previstas:
 
 - limpieza y perfilado de datos;
 - generacion de KPIs;
@@ -143,7 +147,7 @@ Posibles capacidades:
 
 Skills para convertir conocimiento tecnico en documentos consistentes.
 
-Posibles capacidades:
+Capacidades previstas:
 
 - generacion de guias;
 - reportes tecnicos;
@@ -155,9 +159,9 @@ Posibles capacidades:
 
 ---
 
-## Criterios para crear un nuevo repo de skills
+## Criterios para activar un nuevo repo de skills
 
-Antes de crear un nuevo repositorio, debe existir una respuesta clara a estas preguntas:
+Antes de activar un nuevo repositorio como parte de esta linea, debe existir una respuesta clara a estas preguntas:
 
 1. Que trabajo tecnico acelera?
 2. Que artefacto produce?
@@ -263,7 +267,7 @@ La aplicacion principal esta en:
 
 - Consolidar este repo como indice maestro.
 - Documentar `drawingskills` como primer repo activo de la linea.
-- Definir convencion de nombres para futuros repos.
+- Definir convencion de nombres para repos en trabajo.
 
 ### Fase 2 - Estandarizar estructura
 
@@ -274,10 +278,10 @@ La aplicacion principal esta en:
 
 ### Fase 3 - Expandir capacidades
 
-- Crear skills para QMS.
-- Crear skills para herramientas de calidad.
-- Crear skills para analitica aplicada.
-- Crear skills para documentacion tecnica.
+- Activar skills para QMS.
+- Activar skills para herramientas de calidad.
+- Activar skills para analitica aplicada.
+- Activar skills para documentacion tecnica.
 
 ### Fase 4 - Integrar con activos profesionales
 
@@ -287,15 +291,15 @@ La aplicacion principal esta en:
 
 ---
 
-## Convencion de nombres recomendada
+## Convencion de nombres
 
-Para repos nuevos:
+Para repos de esta linea:
 
 ```text
 codex-[dominio]-skills
 ```
 
-Ejemplos:
+Repos en trabajo:
 
 ```text
 codex-qms-skills
