@@ -1,190 +1,125 @@
 # Codex Skills & AI Workflows
 
-Repositorio maestro de mi línea de trabajo para organizar skills, flujos asistidos por IA y activos reutilizables aplicados a trabajo técnico.
+Skills de Codex, flujos asistidos por IA y activos reutilizables para convertir criterio técnico en artefactos editables, documentados y reutilizables.
 
-Estoy usando este espacio para construir, ordenar y documentar una capa propia de capacidades reutilizables para acelerar trabajo profesional en calidad, excelencia operacional, analítica, documentación técnica y automatización asistida por IA.
+Este repositorio es la línea de **Quality Analytics** enfocada en organizar capacidades de trabajo asistido por IA para calidad, excelencia operacional, analítica, documentación técnica y automatización.
 
-El objetivo no es acumular pruebas sueltas. El objetivo es convertir criterio técnico en herramientas, plantillas, diagramas, flujos y skills que pueda reutilizar en proyectos reales.
-
----
-
-## Propósito
-
-Este repo organiza una línea de trabajo en desarrollo orientada a crear skills que ayuden a producir artefactos técnicos útiles:
-
-- diagramas editables;
-- plantillas técnicas;
-- automatizaciones documentales;
-- flujos de análisis;
-- generadores de activos;
-- asistentes especializados para calidad, OPEX, analítica y sistemas de gestión.
-
-La tecnología aquí se entiende como soporte al criterio profesional. No reemplaza validación, trazabilidad ni responsabilidad técnica.
+El foco no es acumular pruebas sueltas. El foco es construir una capa de infraestructura profesional que ayude a producir diagramas, documentos, plantillas, flujos y skills con más consistencia, trazabilidad y revisión humana.
 
 ---
 
-## Ubicación dentro del portfolio
+## Rol dentro del ecosistema
 
-Este repositorio pertenece a la línea:
+```mermaid
+flowchart LR
+    A[Biblioteca Técnica Quality Analytics] --> B[Criterio técnico]
+    C[Quality Analytics Toolkit] --> D[Métodos y herramientas]
+    E[QMS Intelligence / AI for Quality] --> F[Evidencia y contexto]
+    G[Operational Analytics & Automation] --> H[Entregables y flujos]
 
-```text
-Codex Skills / AI Workflows
+    B --> I[Codex Skills & AI Workflows]
+    D --> I
+    F --> I
+    H --> I
+
+    I --> J[Skills reutilizables]
+    I --> K[Diagramas editables]
+    I --> L[Documentos estructurados]
+    I --> M[Plantillas técnicas]
+    I --> N[Flujos asistidos por IA]
+
+    J --> O[Mejores decisiones operativas]
+    K --> O
+    L --> O
+    M --> O
+    N --> O
 ```
 
-Dentro del ecosistema general de GitHub, esta es la estructura que estoy construyendo:
-
-```text
-fjgonzalezmgt/
-
-Core Portfolio
-├── quality-analytics-toolkit
-├── qms-intelligence
-└── operational-analytics-automation
-
-Codex Skills / AI Workflows
-├── Codex-Skills-AI-Workflows        # índice maestro de esta línea
-├── drawingskills                    # activo: diagramas draw.io editables desde Codex
-├── writingskills                    # activo: artículos, newsletters, guías, manuales y libros en LaTeX
-├── codex-qms-skills                 # en desarrollo: QMS, CAPA, auditorías, documentación
-├── codex-quality-tools-skills       # en desarrollo: SPC, MSA, FMEA, DOE, causa raíz
-├── codex-analytics-skills           # en desarrollo: analítica, BI, datos y automatización
-└── codex-documentation-skills       # en desarrollo: documentación técnica y activos estructurados
-
-Applied Analytics Projects
-├── voice-of-customer-analytics
-├── supply-chain-analytics
-└── powerbi-python-projects
-
-Learning / Experiments
-├── notebooks
-├── prototypes
-└── small-tests
-```
+La biblioteca organiza el conocimiento. Los repos principales convierten ese conocimiento en herramientas, evidencia y entregables. Esta línea crea skills y flujos reutilizables para acelerar ese trabajo sin perder criterio técnico.
 
 ---
 
-## Estado actual de la línea
+## Qué problemas atiende
 
-| Repo | Estado | Función |
+| Si necesitas... | Enfoque relacionado | Resultado esperado |
 |---|---|---|
-| [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Activo | Crear diagramas editables de draw.io/diagrams.net desde Codex. |
-| [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Activo | Crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics. |
-| `codex-qms-skills` | En desarrollo | Skills para QMS, CAPA, auditorías, evidencia y documentación técnica. |
-| `codex-quality-tools-skills` | En desarrollo | Skills para herramientas de calidad como SPC, MSA, FMEA, DOE y causa raíz. |
-| `codex-analytics-skills` | En desarrollo | Skills para análisis de datos, KPIs, validación de consistencia y documentación de pipelines. |
-| `codex-documentation-skills` | En desarrollo | Skills para documentación técnica, SOPs, checklists, formatos y materiales de formación. |
-
-La intención es avanzar esta línea de forma gradual. Primero consolido casos de uso claros, después los convierto en skills estables y finalmente los separo en repos propios cuando ya tienen estructura, ejemplos y criterios de validación.
+| Convertir una descripción técnica en un diagrama editable | skills para draw.io / diagrams.net | Diagramas versionables, modificables y reutilizables |
+| Crear documentos técnicos consistentes | plantillas LaTeX y generadores | Artículos, newsletters, guías, manuales o libros con estructura editorial |
+| Reducir fricción en trabajo repetitivo con IA | skills de Codex | Flujos más estandarizados y menos dependientes de pasos manuales |
+| Separar contenido, formato y lógica | plantillas, scripts y referencias | Menos retrabajo y más control sobre el entregable |
+| Documentar capacidades reutilizables | repos de skills | Conocimiento técnico convertido en infraestructura de trabajo |
+| Aplicar IA sin perder control técnico | validación, revisión humana y límites de uso | Salidas útiles sin delegar la responsabilidad profesional |
 
 ---
 
-## Repos activos
+## Repositorios incluidos
 
-### [drawingskills](https://github.com/fjgonzalezmgt/drawingskills)
-
-Librería de skills para crear diagramas editables de draw.io/diagrams.net desde Codex.
-
-Incluye capacidades para:
-
-- Lean Six Sigma;
-- mejora continua;
-- calidad;
-- SIPOC, VSM, DMAIC, PDCA, A3, Ishikawa/fishbone y swimlanes;
-- arquitectura técnica;
-- infraestructura, cloud y Kubernetes;
-- analítica, BI, lakehouse y MLOps;
-- bibliotecas reutilizables de shapes.
-
-Uso principal:
-
-```text
-Convertir descripciones técnicas en diagramas editables, versionables y reutilizables.
-```
-
-### [writingskills](https://github.com/fjgonzalezmgt/writingskills)
-
-Skill de Codex para crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics.
-
-Incluye capacidades para:
-
-- generación de proyectos LaTeX para artículos y newsletters;
-- generación de proyectos LaTeX para libros, guías, manuales o cursos;
-- uso de plantillas editoriales reutilizables;
-- estructura de capítulos, figuras y metadatos;
-- instalación de la skill en el entorno local de Codex;
-- soporte para documentos técnicos en español o inglés.
-
-Uso principal:
-
-```text
-Convertir conocimiento técnico en documentos estructurados, editables y consistentes con la línea editorial de Quality Analytics.
-```
+| Área | Repositorio | Uso principal |
+|---|---|---|
+| Diagramas técnicos editables | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Crear diagramas draw.io/diagrams.net desde Codex para Lean Six Sigma, calidad, arquitectura, analítica, BI, lakehouse y MLOps |
+| Producción documental técnica | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics |
+| QMS y documentación de calidad | `codex-qms-skills` | En desarrollo: skills para QMS, CAPA, auditorías, evidencia y documentación técnica |
+| Herramientas de calidad | `codex-quality-tools-skills` | En desarrollo: skills para SPC, MSA, FMEA, DOE, causa raíz, Pareto, AQL y planes de control |
+| Analítica aplicada | `codex-analytics-skills` | En desarrollo: skills para análisis de datos, KPIs, validación de consistencia y documentación de pipelines |
+| Documentación operativa | `codex-documentation-skills` | En desarrollo: skills para SOPs, checklists, formatos técnicos, reportes y materiales de formación |
 
 ---
 
-## Skills en desarrollo
+## Estado de la línea
 
-Esta sección documenta los frentes que estoy construyendo dentro de esta línea. No son ideas externas ni una lista aspiracional; son áreas de trabajo que iré convirtiendo en repos o módulos conforme maduren.
+| Repo | Estado | Criterio de avance |
+|---|---|---|
+| [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Activo | Ya contiene skills, scripts, ejemplos y referencias para generar diagramas editables. |
+| [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Activo | Ya contiene skill, instalador, generador LaTeX y plantillas editoriales. |
+| `codex-qms-skills` | En desarrollo | Se activará como repo propio cuando existan casos de uso, ejemplos y criterios de validación suficientes. |
+| `codex-quality-tools-skills` | En desarrollo | Se activará cuando los flujos para herramientas de calidad estén suficientemente estructurados. |
+| `codex-analytics-skills` | En desarrollo | Se activará cuando existan flujos reutilizables para análisis, validación y documentación de datos. |
+| `codex-documentation-skills` | En desarrollo | Se activará cuando los flujos documentales operativos estén separados de la producción editorial en LaTeX. |
 
-### codex-qms-skills
+Esta línea avanza de forma gradual. Primero consolido casos de uso claros, después los convierto en skills estables y finalmente los separo en repos propios cuando tienen estructura, ejemplos y criterios de validación.
 
-Trabajo en desarrollo para asistir tareas relacionadas con sistemas de gestión de calidad.
+---
 
-Capacidades en construcción:
+## Flujo conceptual
 
-- análisis de procedimientos;
-- preparación de auditorías;
-- clasificación de hallazgos;
-- soporte a CAPA;
-- trazabilidad documental;
-- revisión de evidencia;
-- estructura de SOPs e instructivos.
+```mermaid
+flowchart TD
+    A[Trabajo técnico repetible] --> B[Definir caso de uso]
+    B --> C[Identificar entradas y contexto]
+    C --> D[Diseñar skill o flujo]
+    D --> E[Generar artefacto editable]
+    E --> F[Validar estructura y contenido]
+    F --> G[Revisión humana]
+    G --> H[Uso profesional]
+    H --> I[Activo reutilizable]
+```
 
-### codex-quality-tools-skills
+Una skill solo tiene sentido cuando convierte un trabajo repetible en una capacidad más clara, auditable y reutilizable.
 
-Trabajo en desarrollo para herramientas clásicas de calidad y mejora continua.
+---
 
-Capacidades en construcción:
+## Casos de uso típicos
 
-- SPC;
-- MSA / Gage R&R;
-- FMEA / AMEF;
-- DOE;
-- causa raíz;
-- Pareto;
-- AQL;
-- planes de control;
-- análisis de capacidad.
+### Diagramación técnica
 
-### codex-analytics-skills
+- Crear SIPOC, VSM, DMAIC, PDCA, A3, Ishikawa/fishbone y swimlanes.
+- Crear diagramas de arquitectura, infraestructura, cloud, Kubernetes, BI, lakehouse y MLOps.
+- Generar bibliotecas reutilizables de shapes para draw.io.
+- Mantener archivos editables y versionables, no capturas estáticas.
 
-Trabajo en desarrollo para analítica aplicada a operaciones.
+### Producción documental
 
-Capacidades en construcción:
+- Crear artículos y newsletters técnicos.
+- Crear guías, manuales, libros o cursos en LaTeX.
+- Mantener plantillas editoriales reutilizables.
+- Separar contenido, estructura, metadatos y formato.
 
-- limpieza y perfilado de datos;
-- generación de KPIs;
-- validación de consistencia;
-- análisis exploratorio;
-- preparación de datasets;
-- interpretación de resultados;
-- documentación de pipelines.
+### Skills en desarrollo
 
-### codex-documentation-skills
-
-Trabajo en desarrollo para documentación técnica y activos estructurados.
-
-Este frente se diferencia de `writingskills` porque no se limita a crear proyectos LaTeX. Su foco será asistir flujos documentales específicos: SOPs, checklists, formatos técnicos, reportes de auditoría, documentación de proyectos y materiales de formación.
-
-Capacidades en construcción:
-
-- generación de guías;
-- reportes técnicos;
-- checklists;
-- formatos de auditoría;
-- documentación de proyectos;
-- resúmenes ejecutivos;
-- materiales de formación.
+- Asistencia a QMS, CAPA, auditorías y documentación técnica.
+- Soporte a herramientas de calidad como SPC, MSA, FMEA, DOE y causa raíz.
+- Validación y documentación de análisis de datos.
+- Creación de SOPs, checklists, reportes y formatos técnicos.
 
 ---
 
@@ -233,44 +168,34 @@ Y documentar:
 
 ## Principios de diseño
 
-### 1. Artefactos editables sobre salidas cerradas
+- Producir artefactos editables, versionables y auditables siempre que sea posible.
+- Separar contenido, configuración, plantillas y lógica.
+- Mantener revisión humana antes del uso profesional.
+- Documentar límites de uso y riesgos de mala aplicación.
+- Evitar automatización sin criterio técnico.
+- Convertir flujos repetibles en capacidades reutilizables.
+- Priorizar salidas que ayuden a comunicar, analizar, documentar o decidir mejor.
 
-Siempre que sea posible, las skills deben producir archivos editables, versionables y auditables.
+---
 
-Ejemplos:
+## Qué no busca hacer
 
-- `.drawio` en lugar de imágenes planas;
-- `.tex` y `.md` en lugar de texto suelto;
-- `.json` o `.yaml` cuando convenga trazabilidad;
-- scripts reutilizables en lugar de pasos manuales repetidos.
+Este repositorio no busca:
 
-### 2. Criterio técnico antes que automatización
+- reemplazar los proyectos principales del portfolio;
+- convertir cada experimento en un repo independiente;
+- usar IA como autoridad técnica final;
+- producir entregables sin revisión humana;
+- acumular skills sin casos de uso claros;
+- automatizar trabajo que todavía no está bien entendido.
 
-Una skill solo tiene valor si mejora una decisión, reduce fricción o aumenta consistencia.
-
-Automatizar sin criterio solo acelera variabilidad.
-
-### 3. Validación explícita
-
-Todo flujo debe tener algún mecanismo de validación:
-
-- validación estructural;
-- revisión humana;
-- pruebas de ejemplo;
-- criterios de aceptación;
-- comparación contra fuentes o requisitos.
-
-### 4. Separación entre exploración y capacidad estable
-
-No todo experimento merece convertirse en skill.
-
-Una skill debe ser reutilizable, explicable y suficientemente estable para documentarse.
+La IA puede reducir fricción, pero la responsabilidad profesional permanece en la persona que valida y usa el resultado.
 
 ---
 
 ## Relación con Quality Analytics
 
-Esta línea de repos complementa el posicionamiento de Quality Analytics:
+Esta línea complementa el posicionamiento de Quality Analytics:
 
 ```text
 Calidad + OPEX + Data Analytics + IA aplicada
@@ -290,76 +215,10 @@ La aplicación principal está en:
 
 ---
 
-## Roadmap de trabajo
+## Parte del ecosistema Quality Analytics
 
-### Fase 1 - Base de la línea
-
-- Consolidar este repo como índice maestro.
-- Mantener `drawingskills` como primer repo activo de la línea.
-- Integrar `writingskills` como skill activa para producción documental.
-- Definir convención de nombres para repos en desarrollo.
-
-### Fase 2 - Estandarización
-
-- Crear plantilla base para repos de skills.
-- Definir README mínimo.
-- Crear checklist de validación.
-- Documentar estructura recomendada de carpetas.
-
-### Fase 3 - Desarrollo de nuevos frentes
-
-- Desarrollar skills para QMS.
-- Desarrollar skills para herramientas de calidad.
-- Desarrollar skills para analítica aplicada.
-- Desarrollar skills para documentación técnica.
-
-### Fase 4 - Integración con activos profesionales
-
-- Conectar skills con guías, plantillas y casos de Quality Analytics.
-- Crear ejemplos orientados a problemas reales de calidad, operaciones y datos.
-- Publicar casos demostrables en el portfolio técnico.
-
----
-
-## Convención de nombres
-
-Para repos de esta línea:
-
-```text
-codex-[dominio]-skills
-```
-
-Repos activos con nombre histórico:
-
-```text
-drawingskills
-writingskills
-```
-
-Repos en desarrollo:
-
-```text
-codex-qms-skills
-codex-quality-tools-skills
-codex-analytics-skills
-codex-documentation-skills
-codex-powerbi-skills
-codex-python-automation-skills
-```
-
-Para los repos activos existentes, una opción futura sería renombrarlos a:
-
-```text
-codex-drawio-skills
-codex-writing-skills
-```
-
-No es obligatorio hacerlo de inmediato. Lo importante es mantener clara su función dentro de esta línea.
-
----
-
-## Nota de uso
-
-Este repositorio no reemplaza los proyectos principales del portfolio.
-
-Funciona como capa de infraestructura profesional para construir, probar y organizar skills que puedan apoyar mejores decisiones, documentación más consistente y artefactos técnicos reutilizables.
+- [Biblioteca Técnica Quality Analytics](https://github.com/fjgonzalezmgt/fjgonzalezmgt/blob/main/TECHNICAL_LIBRARY.md)
+- [Quality Analytics Toolkit](https://github.com/fjgonzalezmgt/Quality-Analytics-Toolkit)
+- [QMS Intelligence / AI for Quality](https://github.com/fjgonzalezmgt/QMS-Intelligence-AI-for-Quality)
+- [Operational Analytics & Automation](https://github.com/fjgonzalezmgt/Operational-Analytics-Automation)
+- [Learning / Data Science Portfolio](https://github.com/fjgonzalezmgt/Learning-Data-Science-Portfolio)
