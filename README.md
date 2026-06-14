@@ -44,10 +44,11 @@ Core Portfolio
 Codex Skills / AI Workflows
 ├── Codex-Skills-AI-Workflows        # índice maestro de esta línea
 ├── drawingskills                    # activo: diagramas draw.io editables desde Codex
+├── writingskills                    # activo: artículos, newsletters, guías, manuales y libros en LaTeX
 ├── codex-qms-skills                 # en desarrollo: QMS, CAPA, auditorías, documentación
 ├── codex-quality-tools-skills       # en desarrollo: SPC, MSA, FMEA, DOE, causa raíz
 ├── codex-analytics-skills           # en desarrollo: analítica, BI, datos y automatización
-└── codex-documentation-skills       # en desarrollo: guías, reportes, SOPs, formatos técnicos
+└── codex-documentation-skills       # en desarrollo: documentación técnica y activos estructurados
 
 Applied Analytics Projects
 ├── voice-of-customer-analytics
@@ -66,19 +67,20 @@ Learning / Experiments
 
 | Repo | Estado | Función |
 |---|---|---|
-| `drawingskills` | Activo | Crear diagramas editables de draw.io/diagrams.net desde Codex. |
+| [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Activo | Crear diagramas editables de draw.io/diagrams.net desde Codex. |
+| [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Activo | Crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics. |
 | `codex-qms-skills` | En desarrollo | Skills para QMS, CAPA, auditorías, evidencia y documentación técnica. |
 | `codex-quality-tools-skills` | En desarrollo | Skills para herramientas de calidad como SPC, MSA, FMEA, DOE y causa raíz. |
 | `codex-analytics-skills` | En desarrollo | Skills para análisis de datos, KPIs, validación de consistencia y documentación de pipelines. |
-| `codex-documentation-skills` | En desarrollo | Skills para guías, reportes técnicos, SOPs, checklists y materiales de formación. |
+| `codex-documentation-skills` | En desarrollo | Skills para documentación técnica, SOPs, checklists, formatos y materiales de formación. |
 
 La intención es avanzar esta línea de forma gradual. Primero consolido casos de uso claros, después los convierto en skills estables y finalmente los separo en repos propios cuando ya tienen estructura, ejemplos y criterios de validación.
 
 ---
 
-## Repo activo
+## Repos activos
 
-### drawingskills
+### [drawingskills](https://github.com/fjgonzalezmgt/drawingskills)
 
 Librería de skills para crear diagramas editables de draw.io/diagrams.net desde Codex.
 
@@ -99,10 +101,23 @@ Uso principal:
 Convertir descripciones técnicas en diagramas editables, versionables y reutilizables.
 ```
 
-Repositorio:
+### [writingskills](https://github.com/fjgonzalezmgt/writingskills)
+
+Skill de Codex para crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics.
+
+Incluye capacidades para:
+
+- generación de proyectos LaTeX para artículos y newsletters;
+- generación de proyectos LaTeX para libros, guías, manuales o cursos;
+- uso de plantillas editoriales reutilizables;
+- estructura de capítulos, figuras y metadatos;
+- instalación de la skill en el entorno local de Codex;
+- soporte para documentos técnicos en español o inglés.
+
+Uso principal:
 
 ```text
-https://github.com/fjgonzalezmgt/drawingskills
+Convertir conocimiento técnico en documentos estructurados, editables y consistentes con la línea editorial de Quality Analytics.
 ```
 
 ---
@@ -157,7 +172,9 @@ Capacidades en construcción:
 
 ### codex-documentation-skills
 
-Trabajo en desarrollo para convertir conocimiento técnico en documentos consistentes.
+Trabajo en desarrollo para documentación técnica y activos estructurados.
+
+Este frente se diferencia de `writingskills` porque no se limita a crear proyectos LaTeX. Su foco será asistir flujos documentales específicos: SOPs, checklists, formatos técnicos, reportes de auditoría, documentación de proyectos y materiales de formación.
 
 Capacidades en construcción:
 
@@ -223,7 +240,7 @@ Siempre que sea posible, las skills deben producir archivos editables, versionab
 Ejemplos:
 
 - `.drawio` en lugar de imágenes planas;
-- `.md` en lugar de texto suelto;
+- `.tex` y `.md` en lugar de texto suelto;
 - `.json` o `.yaml` cuando convenga trazabilidad;
 - scripts reutilizables en lugar de pasos manuales repetidos.
 
@@ -279,6 +296,7 @@ La aplicación principal está en:
 
 - Consolidar este repo como índice maestro.
 - Mantener `drawingskills` como primer repo activo de la línea.
+- Integrar `writingskills` como skill activa para producción documental.
 - Definir convención de nombres para repos en desarrollo.
 
 ### Fase 2 - Estandarización
@@ -311,6 +329,13 @@ Para repos de esta línea:
 codex-[dominio]-skills
 ```
 
+Repos activos con nombre histórico:
+
+```text
+drawingskills
+writingskills
+```
+
 Repos en desarrollo:
 
 ```text
@@ -322,10 +347,11 @@ codex-powerbi-skills
 codex-python-automation-skills
 ```
 
-Para el repo existente `drawingskills`, una opción futura sería renombrarlo a:
+Para los repos activos existentes, una opción futura sería renombrarlos a:
 
 ```text
 codex-drawio-skills
+codex-writing-skills
 ```
 
 No es obligatorio hacerlo de inmediato. Lo importante es mantener clara su función dentro de esta línea.
