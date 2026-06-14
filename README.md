@@ -82,17 +82,6 @@ Esta línea avanza de forma gradual. Primero consolido casos de uso claros, desp
 
 ---
 
-## Skills descartados por ahora
-
-| Skill | Decisión | Motivo |
-|---|---|---|
-| `codex-documentation-skills` | Pausado / no prioritario | Se solapa con `writingskills` y, por ahora, no tengo una operación propia que requiera SOPs, instructivos o documentación interna recurrente. |
-| `codex-qms-skills` | Replantear | QMS completo suena más a operación empresarial. Para mi etapa actual tiene más sentido trabajar capacidades específicas: CAPA, auditorías, evidencia, causa raíz y análisis de hallazgos. |
-
-Estos frentes pueden retomarse después si aparece un caso de uso real. Por ahora no deberían ocupar espacio como repos planificados.
-
----
-
 ## Flujo conceptual
 
 ```mermaid
