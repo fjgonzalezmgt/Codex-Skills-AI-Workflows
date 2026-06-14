@@ -2,9 +2,9 @@
 
 Skills de Codex, flujos asistidos por IA y activos reutilizables para convertir criterio técnico en artefactos editables, documentados y reutilizables.
 
-Este repositorio es la línea de **Quality Analytics** enfocada en organizar capacidades de trabajo asistido por IA para calidad, excelencia operacional, analítica, documentación técnica y automatización.
+Este repositorio es la línea de **Quality Analytics** enfocada en organizar capacidades de trabajo asistido por IA para calidad, excelencia operacional, analítica, comunicación técnica y automatización.
 
-El foco no es acumular pruebas sueltas. El foco es construir una capa de infraestructura profesional que ayude a producir diagramas, documentos, plantillas, flujos y skills con más consistencia, trazabilidad y revisión humana.
+El foco no es acumular pruebas sueltas. El foco es construir una capa de infraestructura profesional que ayude a producir diagramas, documentos, análisis, plantillas y flujos con más consistencia, trazabilidad y revisión humana.
 
 ---
 
@@ -25,8 +25,8 @@ flowchart LR
     I --> J[Skills reutilizables]
     I --> K[Diagramas editables]
     I --> L[Documentos estructurados]
-    I --> M[Plantillas técnicas]
-    I --> N[Flujos asistidos por IA]
+    I --> M[Flujos analíticos]
+    I --> N[Contenido técnico reutilizable]
 
     J --> O[Mejores decisiones operativas]
     K --> O
@@ -41,13 +41,13 @@ La biblioteca organiza el conocimiento. Los repos principales convierten ese con
 
 ## Qué problemas atiende
 
-| Si necesitas... | Enfoque relacionado | Resultado esperado |
+| Si necesito... | Enfoque relacionado | Resultado esperado |
 |---|---|---|
 | Convertir una descripción técnica en un diagrama editable | skills para draw.io / diagrams.net | Diagramas versionables, modificables y reutilizables |
 | Crear documentos técnicos consistentes | plantillas LaTeX y generadores | Artículos, newsletters, guías, manuales o libros con estructura editorial |
-| Reducir fricción en trabajo repetitivo con IA | skills de Codex | Flujos más estandarizados y menos dependientes de pasos manuales |
-| Separar contenido, formato y lógica | plantillas, scripts y referencias | Menos retrabajo y más control sobre el entregable |
-| Documentar capacidades reutilizables | repos de skills | Conocimiento técnico convertido en infraestructura de trabajo |
+| Reutilizar métodos de calidad en flujos asistidos por IA | quality tools skills | Apoyo estructurado para SPC, MSA, FMEA, DOE, causa raíz y análisis de capacidad |
+| Acelerar análisis operativo y validación de datos | analytics skills | Flujos más consistentes para revisar datos, KPIs, supuestos y hallazgos |
+| Mejorar contenido técnico sin producir ruido | quality content skills | Ideas, artículos, newsletters y derivados más alineados con Quality Analytics |
 | Aplicar IA sin perder control técnico | validación, revisión humana y límites de uso | Salidas útiles sin delegar la responsabilidad profesional |
 
 ---
@@ -58,10 +58,11 @@ La biblioteca organiza el conocimiento. Los repos principales convierten ese con
 |---|---|---|
 | Diagramas técnicos editables | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Crear diagramas draw.io/diagrams.net desde Codex para Lean Six Sigma, calidad, arquitectura, analítica, BI, lakehouse y MLOps |
 | Producción documental técnica | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics |
-| QMS y documentación de calidad | `codex-qms-skills` | En desarrollo: skills para QMS, CAPA, auditorías, evidencia y documentación técnica |
-| Herramientas de calidad | `codex-quality-tools-skills` | En desarrollo: skills para SPC, MSA, FMEA, DOE, causa raíz, Pareto, AQL y planes de control |
-| Analítica aplicada | `codex-analytics-skills` | En desarrollo: skills para análisis de datos, KPIs, validación de consistencia y documentación de pipelines |
-| Documentación operativa | `codex-documentation-skills` | En desarrollo: skills para SOPs, checklists, formatos técnicos, reportes y materiales de formación |
+| Herramientas de calidad | `codex-quality-tools-skills` | En desarrollo: skills para SPC, MSA, FMEA, DOE, causa raíz, Pareto, AQL, análisis de capacidad y planes de control |
+| Analítica aplicada | `codex-analytics-skills` | En desarrollo: skills para análisis de datos, KPIs, validación de consistencia, interpretación de resultados y documentación de pipelines |
+| Power BI y BI aplicado | `codex-powerbi-skills` | En evaluación: skills para medidas DAX, diseño de KPIs, revisión de dashboards y modelos semánticos |
+| Investigación y síntesis técnica | `codex-research-skills` | En evaluación: skills para revisar fuentes, comparar marcos técnicos, estructurar artículos y sintetizar evidencia |
+| Contenido técnico reutilizable | `codex-quality-content-skills` | En evaluación: skills para convertir guías, artículos y experiencias en posts, newsletters, carruseles, checklists y frameworks |
 
 ---
 
@@ -71,12 +72,24 @@ La biblioteca organiza el conocimiento. Los repos principales convierten ese con
 |---|---|---|
 | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Activo | Ya contiene skills, scripts, ejemplos y referencias para generar diagramas editables. |
 | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Activo | Ya contiene skill, instalador, generador LaTeX y plantillas editoriales. |
-| `codex-qms-skills` | En desarrollo | Se activará como repo propio cuando existan casos de uso, ejemplos y criterios de validación suficientes. |
-| `codex-quality-tools-skills` | En desarrollo | Se activará cuando los flujos para herramientas de calidad estén suficientemente estructurados. |
-| `codex-analytics-skills` | En desarrollo | Se activará cuando existan flujos reutilizables para análisis, validación y documentación de datos. |
-| `codex-documentation-skills` | En desarrollo | Se activará cuando los flujos documentales operativos estén separados de la producción editorial en LaTeX. |
+| `codex-quality-tools-skills` | Próxima prioridad | Refuerza directamente el posicionamiento en calidad, OPEX y herramientas estadísticas aplicadas. |
+| `codex-analytics-skills` | Próxima prioridad | Refuerza la línea de analítica aplicada y soporte a decisiones operativas. |
+| `codex-powerbi-skills` | En evaluación | Útil si se conecta con dashboards, KPIs y modelos semánticos usados de forma recurrente. |
+| `codex-research-skills` | En evaluación | Útil para sostener guías, artículos técnicos y síntesis de conocimiento aplicado. |
+| `codex-quality-content-skills` | En evaluación | Útil si acelera el sistema editorial de Quality Analytics sin generar ruido. |
 
-Esta línea avanza de forma gradual. Primero consolido casos de uso claros, después los convierto en skills estables y finalmente los separo en repos propios cuando tienen estructura, ejemplos y criterios de validación.
+Esta línea avanza de forma gradual. Primero consolido casos de uso claros, después los convierto en skills estables y finalmente los separo en repos propios cuando ya tienen uso repetido y valor claro.
+
+---
+
+## Skills descartados por ahora
+
+| Skill | Decisión | Motivo |
+|---|---|---|
+| `codex-documentation-skills` | Pausado / no prioritario | Se solapa con `writingskills` y, por ahora, no tengo una operación propia que requiera SOPs, instructivos o documentación interna recurrente. |
+| `codex-qms-skills` | Replantear | QMS completo suena más a operación empresarial. Para mi etapa actual tiene más sentido trabajar capacidades específicas: CAPA, auditorías, evidencia, causa raíz y análisis de hallazgos. |
+
+Estos frentes pueden retomarse después si aparece un caso de uso real. Por ahora no deberían ocupar espacio como repos planificados.
 
 ---
 
@@ -84,8 +97,8 @@ Esta línea avanza de forma gradual. Primero consolido casos de uso claros, desp
 
 ```mermaid
 flowchart TD
-    A[Trabajo técnico repetible] --> B[Definir caso de uso]
-    B --> C[Identificar entradas y contexto]
+    A[Trabajo técnico repetible] --> B[Uso recurrente]
+    B --> C[Valor claro]
     C --> D[Diseñar skill o flujo]
     D --> E[Generar artefacto editable]
     E --> F[Validar estructura y contenido]
@@ -114,12 +127,13 @@ Una skill solo tiene sentido cuando convierte un trabajo repetible en una capaci
 - Mantener plantillas editoriales reutilizables.
 - Separar contenido, estructura, metadatos y formato.
 
-### Skills en desarrollo
+### Próximos frentes útiles
 
-- Asistencia a QMS, CAPA, auditorías y documentación técnica.
-- Soporte a herramientas de calidad como SPC, MSA, FMEA, DOE y causa raíz.
-- Validación y documentación de análisis de datos.
-- Creación de SOPs, checklists, reportes y formatos técnicos.
+- Soporte a herramientas de calidad como SPC, MSA, FMEA, DOE, causa raíz y capacidad de proceso.
+- Validación, análisis e interpretación de datos operativos.
+- Revisión de dashboards, KPIs y modelos de Power BI.
+- Síntesis técnica para guías, artículos y marcos de decisión.
+- Reutilización de contenido técnico para Quality Analytics.
 
 ---
 
@@ -127,42 +141,15 @@ Una skill solo tiene sentido cuando convierte un trabajo repetible en una capaci
 
 Antes de separar un frente de trabajo en un repo propio, valido estas preguntas:
 
-1. Qué trabajo técnico acelera?
-2. Qué artefacto produce?
-3. Qué criterio profesional requiere validación humana?
-4. Qué datos, entradas o contexto necesita?
-5. Qué riesgos existen si se usa mal?
-6. Cómo se valida la salida?
-7. Puede reutilizarse en más de un proyecto?
+1. ¿Lo voy a usar repetidamente?
+2. ¿Genera un activo reutilizable?
+3. ¿Refuerza mi posicionamiento técnico?
+4. ¿Se conecta con Quality Analytics?
+5. ¿Reduce trabajo manual, fricción o carga cognitiva?
+6. ¿Requiere criterio profesional para validar la salida?
+7. ¿Tiene suficiente valor para existir como repo separado?
 
 Si la respuesta no es clara, lo mantengo como experimento o módulo interno antes de convertirlo en repo independiente.
-
----
-
-## Estándar mínimo de cada skill repo
-
-Cada repositorio de skills debe incluir:
-
-```text
-README.md
-skills/
-examples/
-references/
-scripts/
-tests/ or validation/
-```
-
-Y documentar:
-
-- propósito;
-- alcance;
-- instalación;
-- prompts de uso;
-- ejemplos;
-- criterios de validación;
-- límites conocidos;
-- riesgos de uso;
-- oportunidades futuras.
 
 ---
 
@@ -187,6 +174,7 @@ Este repositorio no busca:
 - usar IA como autoridad técnica final;
 - producir entregables sin revisión humana;
 - acumular skills sin casos de uso claros;
+- crear repos solo porque el tema suena relacionado;
 - automatizar trabajo que todavía no está bien entendido.
 
 La IA puede reducir fricción, pero la responsabilidad profesional permanece en la persona que valida y usa el resultado.
@@ -205,10 +193,10 @@ Su función es convertir conocimiento técnico en capacidades operativas reutili
 
 La aplicación principal está en:
 
-- sistemas de gestión de calidad;
 - mejora continua;
+- herramientas de calidad;
 - analítica aplicada;
-- documentación técnica;
+- comunicación técnica;
 - automatización de reportes;
 - visualización de procesos;
 - soporte a decisiones operativas.
