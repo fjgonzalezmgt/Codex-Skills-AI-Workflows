@@ -1,238 +1,149 @@
 # Codex Skills & AI Workflows
 
-Skills de Codex, flujos asistidos por IA y activos reutilizables para convertir criterio técnico en artefactos editables, documentados y reutilizables.
+Repositorio de skills, flujos asistidos por IA y activos reutilizables para apoyar trabajo técnico en calidad, excelencia operacional, analítica aplicada, documentación y comunicación profesional.
 
-Este repositorio es la línea de **Quality Analytics** enfocada en organizar capacidades de trabajo asistido por IA para calidad, excelencia operacional, analítica, comunicación técnica y automatización.
+Este repositorio forma parte del ecosistema **Quality Analytics** y concentra skills diseñadas para convertir tareas técnicas recurrentes en flujos más claros, revisables y consistentes.
 
-El foco no es acumular pruebas sueltas. El foco es construir una capa de infraestructura profesional que ayude a producir diagramas, documentos, análisis, plantillas y flujos con más consistencia, trazabilidad y revisión humana.
-
----
-
-## Rol dentro del ecosistema
-
-```mermaid
-flowchart LR
-    A[Biblioteca Técnica Quality Analytics] --> B[Criterio técnico]
-    C[Quality Analytics Toolkit] --> D[Métodos y herramientas]
-    E[QMS Intelligence / AI for Quality] --> F[Evidencia y contexto]
-    G[Operational Analytics & Automation] --> H[Entregables y flujos]
-
-    B --> I[Codex Skills & AI Workflows]
-    D --> I
-    F --> I
-    H --> I
-
-    I --> J[Skills reutilizables]
-    I --> K[Diagramas editables]
-    I --> L[Documentos estructurados]
-    I --> M[Flujos analíticos]
-    I --> N[Contenido técnico reutilizable]
-
-    J --> O[Mejores decisiones operativas]
-    K --> O
-    L --> O
-    M --> O
-    N --> O
-```
-
-La biblioteca organiza el conocimiento. Los repos principales convierten ese conocimiento en herramientas, evidencia y entregables. Esta línea crea skills y flujos reutilizables para acelerar ese trabajo sin perder criterio técnico.
+El objetivo no es reemplazar el criterio profesional. El objetivo es reducir fricción operativa, estructurar mejor el trabajo y generar artefactos editables que puedan ser revisados, ajustados y reutilizados.
 
 ---
 
-## Qué problemas atiende
+## Alcance del repositorio
 
-| Si necesito... | Enfoque relacionado | Resultado esperado |
-|---|---|---|
-| Convertir una descripción técnica en un diagrama editable | skills para draw.io / diagrams.net | Diagramas versionables, modificables y reutilizables |
-| Crear documentos técnicos consistentes | plantillas LaTeX y generadores | Artículos, newsletters, guías, manuales o libros con estructura editorial |
-| Reutilizar herramientas de calidad en flujos asistidos por IA | quality tools skills modulares | Apoyo estructurado para SPC, MSA, capacidad de proceso, FMEA, planes de control, causa raíz, CAPA, Pareto, AQL y DOE |
-| Acelerar análisis operativo y validación de datos | analytics skills | Flujos más consistentes para revisar datos, KPIs, supuestos y hallazgos |
-| Mejorar contenido técnico sin producir ruido | quality content skills | Ideas, artículos, newsletters y derivados más alineados con Quality Analytics |
-| Aplicar IA sin perder control técnico | validación, revisión humana y límites de uso | Salidas útiles sin delegar la responsabilidad profesional |
+Este repositorio agrupa skills y flujos para:
 
----
+- herramientas de calidad;
+- Lean Six Sigma y mejora continua;
+- análisis de datos aplicado a operaciones;
+- documentación técnica;
+- diagramación editable;
+- generación de contenido técnico;
+- revisión de indicadores, dashboards y hallazgos;
+- automatización de tareas repetibles con revisión humana.
 
-## Repositorios incluidos
-
-| Área | Repositorio | Uso principal |
-|---|---|---|
-| Diagramas técnicos editables | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Crear diagramas draw.io/diagrams.net desde Codex para Lean Six Sigma, calidad, arquitectura, analítica, BI, lakehouse y MLOps |
-| Producción documental técnica | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics |
-| Herramientas de calidad | `codex-quality-tools-skills` | En desarrollo: repositorio organizador de skills aplicadas para herramientas de calidad industrial, estructurado en módulos independientes para evitar una skill demasiado amplia |
-| Analítica aplicada | `codex-analytics-skills` | En desarrollo: skills para análisis de datos, KPIs, validación de consistencia, interpretación de resultados y documentación de pipelines |
-| Power BI y BI aplicado | `codex-powerbi-skills` | En evaluación: skills para medidas DAX, diseño de KPIs, revisión de dashboards y modelos semánticos |
-| Investigación y síntesis técnica | `codex-research-skills` | En evaluación: skills para revisar fuentes, comparar marcos técnicos, estructurar artículos y sintetizar evidencia |
-| Contenido técnico reutilizable | `codex-quality-content-skills` | En evaluación: skills para convertir guías, artículos y experiencias en posts, newsletters, carruseles, checklists y frameworks |
+Todas las skills se gestionan dentro de este repositorio. No se plantea crear un repositorio independiente por cada skill.
 
 ---
 
-## Línea modular de herramientas de calidad
+## Áreas de trabajo
 
-`codex-quality-tools-skills` no se plantea como una sola skill grande.
-
-La intención es usarlo como repositorio organizador para una familia de skills más pequeñas, cada una con un alcance claro, criterios de uso, límites técnicos y salidas revisables.
-
-| Módulo | Propósito |
+| Área | Uso principal |
 |---|---|
-| `spc-process-control-skill` | Apoyar análisis de estabilidad, selección de cartas de control, interpretación de señales y planes de reacción operativa. |
+| Diagramación técnica | Crear diagramas editables para procesos, mejora continua, arquitectura, BI, lakehouse, MLOps y flujos operativos. |
+| Producción documental | Crear artículos, newsletters, guías, manuales, reportes y documentos técnicos con estructura reutilizable. |
+| Herramientas de calidad | Apoyar análisis con SPC, MSA, capacidad de proceso, FMEA, planes de control, causa raíz, CAPA, Pareto, AQL y DOE. |
+| Analítica aplicada | Revisar datos, KPIs, supuestos, consistencia, hallazgos y conclusiones operativas. |
+| Power BI y BI aplicado | Apoyar diseño de KPIs, revisión de dashboards, modelos semánticos y medidas DAX. |
+| Investigación y síntesis técnica | Estructurar revisión de fuentes, comparación de marcos, síntesis técnica y criterios de aplicación. |
+| Contenido técnico | Convertir ideas, guías y experiencias en posts, newsletters, carruseles, checklists y frameworks. |
+
+---
+
+## Skills de herramientas de calidad
+
+Las herramientas de calidad se organizan como skills internas con alcance específico.
+
+| Skill | Propósito |
+|---|---|
+| `spc-process-control-skill` | Apoyar análisis de estabilidad, selección de cartas de control, interpretación de señales y planes de reacción. |
 | `msa-measurement-systems-skill` | Estructurar estudios de sistemas de medición por variables, atributos, sesgo, linealidad, estabilidad y acuerdo. |
-| `process-capability-skill` | Apoyar interpretación de Cp, Cpk, Pp, Ppk, desempeño frente a especificación y riesgos de conclusión. |
-| `root-cause-capa-skill` | Estructurar investigación de causa raíz, contención, acciones correctivas, preventivas y verificación de efectividad. |
+| `process-capability-skill` | Apoyar interpretación de Cp, Cpk, Pp, Ppk y desempeño frente a especificación. |
+| `root-cause-capa-skill` | Estructurar investigación de causa raíz, contención, acciones correctivas, acciones preventivas y verificación de efectividad. |
 | `fmea-control-plan-skill` | Conectar modos de falla, riesgos, controles preventivos, controles de detección y planes de control. |
 | `pareto-aql-inspection-skill` | Priorizar defectos, reclamos o hallazgos usando Pareto, AQL, muestreo e interpretación de inspección. |
 | `doe-industrial-experiments-skill` | Estructurar experimentos industriales con factores, niveles, respuesta, supuestos, análisis y validación. |
 
-La prioridad inicial es desarrollar los módulos que tienen mayor conexión con activos técnicos ya existentes y con decisiones frecuentes en calidad industrial:
-
-1. SPC.
-2. MSA.
-3. Causa raíz / CAPA.
-
-Después pueden integrarse capacidad de proceso, FMEA con planes de control, Pareto con AQL y DOE.
-
-El criterio no es cubrir todas las herramientas al mismo tiempo. El criterio es construir skills que ayuden a interpretar datos, reconocer límites, documentar razonamiento y mejorar decisiones operativas.
-
----
-
-## Estado de la línea
-
-| Repo | Estado | Criterio de avance |
-|---|---|---|
-| [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Activo | Ya contiene skills, scripts, ejemplos y referencias para generar diagramas editables. |
-| [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Activo | Ya contiene skill, instalador, generador LaTeX y plantillas editoriales. |
-| `codex-quality-tools-skills` | Próxima prioridad | Debe avanzar como repositorio organizador de módulos pequeños para herramientas de calidad, no como una sola skill generalista. |
-| `codex-analytics-skills` | Próxima prioridad | Refuerza la línea de analítica aplicada y soporte a decisiones operativas. |
-| `codex-powerbi-skills` | En evaluación | Útil si se conecta con dashboards, KPIs y modelos semánticos usados de forma recurrente. |
-| `codex-research-skills` | En evaluación | Útil para sostener guías, artículos técnicos y síntesis de conocimiento aplicado. |
-| `codex-quality-content-skills` | En evaluación | Útil si acelera el sistema editorial de Quality Analytics sin generar ruido. |
-
-Esta línea avanza de forma gradual. Primero consolido casos de uso claros, después los convierto en skills estables y finalmente los separo en repos propios cuando ya tienen uso repetido y valor claro.
-
----
-
-## Flujo conceptual
-
-```mermaid
-flowchart TD
-    A[Trabajo técnico repetible] --> B[Uso recurrente]
-    B --> C[Valor claro]
-    C --> D[Diseñar skill o flujo]
-    D --> E[Generar artefacto editable]
-    E --> F[Validar estructura y contenido]
-    F --> G[Revisión humana]
-    G --> H[Uso profesional]
-    H --> I[Activo reutilizable]
-```
-
-Una skill solo tiene sentido cuando convierte un trabajo repetible en una capacidad más clara, auditable y reutilizable.
+Estas skills están orientadas a mejorar la interpretación técnica y la toma de decisiones operativas. No sustituyen la validación del profesional responsable.
 
 ---
 
 ## Casos de uso típicos
 
-### Diagramación técnica
+### Calidad y mejora continua
 
-- Crear SIPOC, VSM, DMAIC, PDCA, A3, Ishikawa/fishbone y swimlanes.
-- Crear diagramas de arquitectura, infraestructura, cloud, Kubernetes, BI, lakehouse y MLOps.
-- Generar bibliotecas reutilizables de shapes para draw.io.
-- Mantener archivos editables y versionables, no capturas estáticas.
+- Revisar estabilidad de procesos mediante SPC.
+- Evaluar sistemas de medición antes de interpretar variación del proceso.
+- Analizar capacidad de proceso frente a especificaciones.
+- Estructurar investigaciones de causa raíz y CAPA.
+- Conectar FMEA con controles actuales y planes de control.
+- Priorizar defectos, reclamos o hallazgos mediante Pareto y AQL.
+- Diseñar experimentos industriales con una pregunta técnica clara.
 
-### Producción documental
+### Analítica aplicada
 
-- Crear artículos y newsletters técnicos.
-- Crear guías, manuales, libros o cursos en LaTeX.
-- Mantener plantillas editoriales reutilizables.
-- Separar contenido, estructura, metadatos y formato.
+- Revisar consistencia de datos operativos.
+- Evaluar KPIs y su relación con decisiones reales.
+- Documentar hallazgos, supuestos y límites de análisis.
+- Estructurar reportes o conclusiones para revisión técnica.
+- Apoyar interpretación de variabilidad, tendencias y señales operativas.
 
-### Herramientas de calidad
+### Documentación y comunicación técnica
 
-- Revisar estabilidad de procesos mediante SPC y definir señales que requieren reacción.
-- Evaluar sistemas de medición antes de interpretar variación de producto o proceso.
-- Interpretar capacidad de proceso sin separar el índice de su contexto operativo.
-- Estructurar causa raíz, CAPA y verificación de efectividad con evidencia trazable.
-- Conectar FMEA, controles actuales y planes de control con riesgos reales del proceso.
-- Usar Pareto, AQL e inspección para priorizar decisiones, no solo para producir reportes.
-- Diseñar experimentos industriales cuando exista una pregunta técnica clara y datos confiables.
+- Crear documentos técnicos con estructura consistente.
+- Convertir ideas en artículos, newsletters o guías.
+- Generar checklists, tablas comparativas y marcos de decisión.
+- Reutilizar contenido técnico sin perder precisión ni contexto.
 
-### Próximos frentes útiles
+### Diagramación y flujos visuales
 
-- Validación, análisis e interpretación de datos operativos.
-- Revisión de dashboards, KPIs y modelos de Power BI.
-- Síntesis técnica para guías, artículos y marcos de decisión.
-- Reutilización de contenido técnico para Quality Analytics.
+- Crear SIPOC, VSM, DMAIC, PDCA, A3, Ishikawa y swimlanes.
+- Crear diagramas de arquitectura, datos, BI, automatización y procesos.
+- Mantener diagramas editables, versionables y reutilizables.
 
 ---
 
-## Criterios para activar un nuevo repo de skills
+## Estructura sugerida
 
-Antes de separar un frente de trabajo en un repo propio, valido estas preguntas:
+```text
+.
+├── skills/
+│   ├── quality-tools/
+│   ├── analytics/
+│   ├── documentation/
+│   ├── diagrams/
+│   ├── powerbi/
+│   ├── research/
+│   └── content/
+├── templates/
+├── examples/
+├── workflows/
+├── references/
+└── README.md
+```
 
-1. ¿Lo voy a usar repetidamente?
-2. ¿Genera un activo reutilizable?
-3. ¿Refuerza mi posicionamiento técnico?
-4. ¿Se conecta con Quality Analytics?
-5. ¿Reduce trabajo manual, fricción o carga cognitiva?
-6. ¿Requiere criterio profesional para validar la salida?
-7. ¿Tiene suficiente valor para existir como repo separado?
-
-Si la respuesta no es clara, lo mantengo como experimento o módulo interno antes de convertirlo en repo independiente.
+La estructura puede ajustarse conforme se consoliden las skills, pero el principio se mantiene: agrupar capacidades reutilizables dentro de este repositorio.
 
 ---
 
 ## Principios de diseño
 
-- Producir artefactos editables, versionables y auditables siempre que sea posible.
-- Separar contenido, configuración, plantillas y lógica.
-- Mantener revisión humana antes del uso profesional.
-- Documentar límites de uso y riesgos de mala aplicación.
-- Evitar automatización sin criterio técnico.
-- Convertir flujos repetibles en capacidades reutilizables.
-- Priorizar salidas que ayuden a comunicar, analizar, documentar o decidir mejor.
-
----
-
-## Qué no busca hacer
-
-Este repositorio no busca:
-
-- reemplazar los proyectos principales del portfolio;
-- convertir cada experimento en un repo independiente;
-- usar IA como autoridad técnica final;
-- producir entregables sin revisión humana;
-- acumular skills sin casos de uso claros;
-- crear repos solo porque el tema suena relacionado;
-- automatizar trabajo que todavía no está bien entendido.
-
-La IA puede reducir fricción, pero la responsabilidad profesional permanece en la persona que valida y usa el resultado.
+- Mantener las salidas editables y revisables.
+- Separar contenido, instrucciones, plantillas y ejemplos.
+- Documentar propósito, entradas esperadas y límites de cada skill.
+- Evitar automatización sin revisión humana.
+- Priorizar flujos que reduzcan fricción y mejoren decisiones.
+- Usar IA como apoyo estructural, no como autoridad técnica final.
 
 ---
 
 ## Relación con Quality Analytics
 
-Esta línea complementa el posicionamiento de Quality Analytics:
+Este repositorio complementa el enfoque de **Quality Analytics**:
 
 ```text
 Calidad + OPEX + Data Analytics + IA aplicada
 ```
 
-Su función es convertir conocimiento técnico en capacidades operativas reutilizables.
-
-La aplicación principal está en:
-
-- mejora continua;
-- herramientas de calidad;
-- analítica aplicada;
-- comunicación técnica;
-- automatización de reportes;
-- visualización de procesos;
-- soporte a decisiones operativas.
+Su función es convertir conocimiento técnico en capacidades prácticas para analizar, documentar, comunicar y mejorar decisiones en contextos operativos.
 
 ---
 
-## Parte del ecosistema Quality Analytics
+## Ecosistema relacionado
 
 - [Biblioteca Técnica Quality Analytics](https://github.com/fjgonzalezmgt/fjgonzalezmgt/blob/main/TECHNICAL_LIBRARY.md)
 - [Quality Analytics Toolkit](https://github.com/fjgonzalezmgt/Quality-Analytics-Toolkit)
 - [QMS Intelligence / AI for Quality](https://github.com/fjgonzalezmgt/QMS-Intelligence-AI-for-Quality)
 - [Operational Analytics & Automation](https://github.com/fjgonzalezmgt/Operational-Analytics-Automation)
 - [Learning / Data Science Portfolio](https://github.com/fjgonzalezmgt/Learning-Data-Science-Portfolio)
+- [drawingskills](https://github.com/fjgonzalezmgt/drawingskills)
+- [writingskills](https://github.com/fjgonzalezmgt/writingskills)
