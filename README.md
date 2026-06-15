@@ -45,7 +45,7 @@ La biblioteca organiza el conocimiento. Los repos principales convierten ese con
 |---|---|---|
 | Convertir una descripción técnica en un diagrama editable | skills para draw.io / diagrams.net | Diagramas versionables, modificables y reutilizables |
 | Crear documentos técnicos consistentes | plantillas LaTeX y generadores | Artículos, newsletters, guías, manuales o libros con estructura editorial |
-| Reutilizar métodos de calidad en flujos asistidos por IA | quality tools skills | Apoyo estructurado para SPC, MSA, FMEA, DOE, causa raíz y análisis de capacidad |
+| Reutilizar herramientas de calidad en flujos asistidos por IA | quality tools skills modulares | Apoyo estructurado para SPC, MSA, capacidad de proceso, FMEA, planes de control, causa raíz, CAPA, Pareto, AQL y DOE |
 | Acelerar análisis operativo y validación de datos | analytics skills | Flujos más consistentes para revisar datos, KPIs, supuestos y hallazgos |
 | Mejorar contenido técnico sin producir ruido | quality content skills | Ideas, artículos, newsletters y derivados más alineados con Quality Analytics |
 | Aplicar IA sin perder control técnico | validación, revisión humana y límites de uso | Salidas útiles sin delegar la responsabilidad profesional |
@@ -58,11 +58,39 @@ La biblioteca organiza el conocimiento. Los repos principales convierten ese con
 |---|---|---|
 | Diagramas técnicos editables | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Crear diagramas draw.io/diagrams.net desde Codex para Lean Six Sigma, calidad, arquitectura, analítica, BI, lakehouse y MLOps |
 | Producción documental técnica | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Crear artículos, newsletters, guías, manuales y libros a partir de plantillas LaTeX de Quality Analytics |
-| Herramientas de calidad | `codex-quality-tools-skills` | En desarrollo: skills para SPC, MSA, FMEA, DOE, causa raíz, Pareto, AQL, análisis de capacidad y planes de control |
+| Herramientas de calidad | `codex-quality-tools-skills` | En desarrollo: repositorio organizador de skills aplicadas para herramientas de calidad industrial, estructurado en módulos independientes para evitar una skill demasiado amplia |
 | Analítica aplicada | `codex-analytics-skills` | En desarrollo: skills para análisis de datos, KPIs, validación de consistencia, interpretación de resultados y documentación de pipelines |
 | Power BI y BI aplicado | `codex-powerbi-skills` | En evaluación: skills para medidas DAX, diseño de KPIs, revisión de dashboards y modelos semánticos |
 | Investigación y síntesis técnica | `codex-research-skills` | En evaluación: skills para revisar fuentes, comparar marcos técnicos, estructurar artículos y sintetizar evidencia |
 | Contenido técnico reutilizable | `codex-quality-content-skills` | En evaluación: skills para convertir guías, artículos y experiencias en posts, newsletters, carruseles, checklists y frameworks |
+
+---
+
+## Línea modular de herramientas de calidad
+
+`codex-quality-tools-skills` no se plantea como una sola skill grande.
+
+La intención es usarlo como repositorio organizador para una familia de skills más pequeñas, cada una con un alcance claro, criterios de uso, límites técnicos y salidas revisables.
+
+| Módulo | Propósito |
+|---|---|
+| `spc-process-control-skill` | Apoyar análisis de estabilidad, selección de cartas de control, interpretación de señales y planes de reacción operativa. |
+| `msa-measurement-systems-skill` | Estructurar estudios de sistemas de medición por variables, atributos, sesgo, linealidad, estabilidad y acuerdo. |
+| `process-capability-skill` | Apoyar interpretación de Cp, Cpk, Pp, Ppk, desempeño frente a especificación y riesgos de conclusión. |
+| `root-cause-capa-skill` | Estructurar investigación de causa raíz, contención, acciones correctivas, preventivas y verificación de efectividad. |
+| `fmea-control-plan-skill` | Conectar modos de falla, riesgos, controles preventivos, controles de detección y planes de control. |
+| `pareto-aql-inspection-skill` | Priorizar defectos, reclamos o hallazgos usando Pareto, AQL, muestreo e interpretación de inspección. |
+| `doe-industrial-experiments-skill` | Estructurar experimentos industriales con factores, niveles, respuesta, supuestos, análisis y validación. |
+
+La prioridad inicial es desarrollar los módulos que tienen mayor conexión con activos técnicos ya existentes y con decisiones frecuentes en calidad industrial:
+
+1. SPC.
+2. MSA.
+3. Causa raíz / CAPA.
+
+Después pueden integrarse capacidad de proceso, FMEA con planes de control, Pareto con AQL y DOE.
+
+El criterio no es cubrir todas las herramientas al mismo tiempo. El criterio es construir skills que ayuden a interpretar datos, reconocer límites, documentar razonamiento y mejorar decisiones operativas.
 
 ---
 
@@ -72,7 +100,7 @@ La biblioteca organiza el conocimiento. Los repos principales convierten ese con
 |---|---|---|
 | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Activo | Ya contiene skills, scripts, ejemplos y referencias para generar diagramas editables. |
 | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Activo | Ya contiene skill, instalador, generador LaTeX y plantillas editoriales. |
-| `codex-quality-tools-skills` | Próxima prioridad | Refuerza directamente el posicionamiento en calidad, OPEX y herramientas estadísticas aplicadas. |
+| `codex-quality-tools-skills` | Próxima prioridad | Debe avanzar como repositorio organizador de módulos pequeños para herramientas de calidad, no como una sola skill generalista. |
 | `codex-analytics-skills` | Próxima prioridad | Refuerza la línea de analítica aplicada y soporte a decisiones operativas. |
 | `codex-powerbi-skills` | En evaluación | Útil si se conecta con dashboards, KPIs y modelos semánticos usados de forma recurrente. |
 | `codex-research-skills` | En evaluación | Útil para sostener guías, artículos técnicos y síntesis de conocimiento aplicado. |
@@ -116,9 +144,18 @@ Una skill solo tiene sentido cuando convierte un trabajo repetible en una capaci
 - Mantener plantillas editoriales reutilizables.
 - Separar contenido, estructura, metadatos y formato.
 
+### Herramientas de calidad
+
+- Revisar estabilidad de procesos mediante SPC y definir señales que requieren reacción.
+- Evaluar sistemas de medición antes de interpretar variación de producto o proceso.
+- Interpretar capacidad de proceso sin separar el índice de su contexto operativo.
+- Estructurar causa raíz, CAPA y verificación de efectividad con evidencia trazable.
+- Conectar FMEA, controles actuales y planes de control con riesgos reales del proceso.
+- Usar Pareto, AQL e inspección para priorizar decisiones, no solo para producir reportes.
+- Diseñar experimentos industriales cuando exista una pregunta técnica clara y datos confiables.
+
 ### Próximos frentes útiles
 
-- Soporte a herramientas de calidad como SPC, MSA, FMEA, DOE, causa raíz y capacidad de proceso.
 - Validación, análisis e interpretación de datos operativos.
 - Revisión de dashboards, KPIs y modelos de Power BI.
 - Síntesis técnica para guías, artículos y marcos de decisión.
