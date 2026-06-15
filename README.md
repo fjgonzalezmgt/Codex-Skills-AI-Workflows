@@ -27,15 +27,27 @@ Todas las skills se gestionan dentro de este repositorio. No se plantea crear un
 
 ## Áreas de trabajo
 
-| Área | Uso principal |
+| Área | Recurso relacionado | Uso principal |
+|---|---|---|
+| Diagramación técnica | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Crear diagramas editables para procesos, mejora continua, arquitectura, BI, lakehouse, MLOps y flujos operativos. |
+| Producción documental | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Crear artículos, newsletters, guías, manuales, reportes y documentos técnicos con estructura reutilizable. |
+| Herramientas de calidad | Skills internas de este repo | Apoyar análisis con SPC, MSA, capacidad de proceso, FMEA, planes de control, causa raíz, CAPA, Pareto, AQL y DOE. |
+| Analítica aplicada | Skills internas de este repo | Revisar datos, KPIs, supuestos, consistencia, hallazgos y conclusiones operativas. |
+| Power BI y BI aplicado | Skills internas de este repo | Apoyar diseño de KPIs, revisión de dashboards, modelos semánticos y medidas DAX. |
+| Investigación y síntesis técnica | Skills internas de este repo | Estructurar revisión de fuentes, comparación de marcos, síntesis técnica y criterios de aplicación. |
+| Contenido técnico | Skills internas de este repo | Convertir ideas, guías y experiencias en posts, newsletters, carruseles, checklists y frameworks. |
+
+---
+
+## Skills internas previstas
+
+| Área | Skills |
 |---|---|
-| Diagramación técnica | Crear diagramas editables para procesos, mejora continua, arquitectura, BI, lakehouse, MLOps y flujos operativos. |
-| Producción documental | Crear artículos, newsletters, guías, manuales, reportes y documentos técnicos con estructura reutilizable. |
-| Herramientas de calidad | Apoyar análisis con SPC, MSA, capacidad de proceso, FMEA, planes de control, causa raíz, CAPA, Pareto, AQL y DOE. |
-| Analítica aplicada | Revisar datos, KPIs, supuestos, consistencia, hallazgos y conclusiones operativas. |
-| Power BI y BI aplicado | Apoyar diseño de KPIs, revisión de dashboards, modelos semánticos y medidas DAX. |
-| Investigación y síntesis técnica | Estructurar revisión de fuentes, comparación de marcos, síntesis técnica y criterios de aplicación. |
-| Contenido técnico | Convertir ideas, guías y experiencias en posts, newsletters, carruseles, checklists y frameworks. |
+| Herramientas de calidad | `spc-process-control-skill`, `msa-measurement-systems-skill`, `process-capability-skill`, `root-cause-capa-skill`, `fmea-control-plan-skill`, `pareto-aql-inspection-skill`, `doe-industrial-experiments-skill` |
+| Analítica aplicada | `data-quality-review-skill`, `kpi-review-skill`, `operations-analysis-skill`, `findings-documentation-skill` |
+| Power BI y BI aplicado | `powerbi-kpi-design-skill`, `dax-review-skill`, `dashboard-review-skill`, `semantic-model-review-skill` |
+| Investigación y síntesis técnica | `technical-research-skill`, `source-comparison-skill`, `framework-synthesis-skill` |
+| Contenido técnico | `linkedin-technical-post-skill`, `newsletter-article-skill`, `carousel-outline-skill`, `checklist-framework-skill` |
 
 ---
 
