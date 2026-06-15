@@ -6,6 +6,29 @@ Forma parte del ecosistema **Quality Analytics** y concentra capacidades reutili
 
 ---
 
+## Mapa del ecosistema
+
+```mermaid
+flowchart LR
+    A[Biblioteca Técnica Quality Analytics] --> B[Criterio técnico]
+    C[Quality Analytics Toolkit] --> D[Métodos y herramientas]
+    E[QMS Intelligence / AI for Quality] --> F[Evidencia y contexto]
+    G[Operational Analytics & Automation] --> H[Entregables y flujos]
+
+    B --> I[Codex Skills & AI Workflows]
+    D --> I
+    F --> I
+    H --> I
+
+    I --> J[Skills reutilizables]
+    I --> K[Diagramas editables]
+    I --> L[Documentos estructurados]
+    I --> M[Flujos analíticos]
+    I --> N[Contenido técnico reutilizable]
+```
+
+---
+
 ## Alcance
 
 Este repositorio incluye skills y flujos para:
