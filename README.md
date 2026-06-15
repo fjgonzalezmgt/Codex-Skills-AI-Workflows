@@ -41,7 +41,7 @@ Todas las skills se gestionan dentro de este repositorio. No se plantea crear un
 
 ## Organización interna
 
-Las skills se agrupan por área funcional dentro de la carpeta `skills/`.
+Las skills se agrupan por área funcional.
 
 Cada área puede tener su propio README con:
 
@@ -86,29 +86,6 @@ El README principal se mantiene como una vista general del repositorio. El detal
 - Crear SIPOC, VSM, DMAIC, PDCA, A3, Ishikawa y swimlanes.
 - Crear diagramas de arquitectura, datos, BI, automatización y procesos.
 - Mantener diagramas editables, versionables y reutilizables.
-
----
-
-## Estructura sugerida
-
-```text
-.
-├── skills/
-│   ├── quality-tools/
-│   ├── analytics/
-│   ├── documentation/
-│   ├── diagrams/
-│   ├── powerbi/
-│   ├── research/
-│   └── content/
-├── templates/
-├── examples/
-├── workflows/
-├── references/
-└── README.md
-```
-
-La estructura puede ajustarse conforme se consoliden las skills, pero el principio se mantiene: agrupar capacidades reutilizables dentro de este repositorio.
 
 ---
 
