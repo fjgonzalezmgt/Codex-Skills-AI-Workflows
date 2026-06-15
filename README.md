@@ -31,7 +31,7 @@ Todas las skills se gestionan dentro de este repositorio. No se plantea crear un
 |---|---|---|
 | Diagramación técnica | [drawingskills](https://github.com/fjgonzalezmgt/drawingskills) | Crear diagramas editables para procesos, mejora continua, arquitectura, BI, lakehouse, MLOps y flujos operativos. |
 | Producción documental | [writingskills](https://github.com/fjgonzalezmgt/writingskills) | Crear artículos, newsletters, guías, manuales, reportes y documentos técnicos con estructura reutilizable. |
-| Herramientas de calidad | Skills internas de este repo | Apoyar análisis con SPC, MSA, capacidad de proceso, FMEA, planes de control, causa raíz, CAPA, Pareto, AQL y DOE. |
+| Herramientas de calidad | Skills internas de este repo | Apoyar análisis técnico de calidad, mejora continua y control de procesos. |
 | Analítica aplicada | Skills internas de este repo | Revisar datos, KPIs, supuestos, consistencia, hallazgos y conclusiones operativas. |
 | Power BI y BI aplicado | Skills internas de este repo | Apoyar diseño de KPIs, revisión de dashboards, modelos semánticos y medidas DAX. |
 | Investigación y síntesis técnica | Skills internas de este repo | Estructurar revisión de fuentes, comparación de marcos, síntesis técnica y criterios de aplicación. |
@@ -39,33 +39,20 @@ Todas las skills se gestionan dentro de este repositorio. No se plantea crear un
 
 ---
 
-## Skills internas previstas
+## Organización interna
 
-| Área | Skills |
-|---|---|
-| Herramientas de calidad | `spc-process-control-skill`, `msa-measurement-systems-skill`, `process-capability-skill`, `root-cause-capa-skill`, `fmea-control-plan-skill`, `pareto-aql-inspection-skill`, `doe-industrial-experiments-skill` |
-| Analítica aplicada | `data-quality-review-skill`, `kpi-review-skill`, `operations-analysis-skill`, `findings-documentation-skill` |
-| Power BI y BI aplicado | `powerbi-kpi-design-skill`, `dax-review-skill`, `dashboard-review-skill`, `semantic-model-review-skill` |
-| Investigación y síntesis técnica | `technical-research-skill`, `source-comparison-skill`, `framework-synthesis-skill` |
-| Contenido técnico | `linkedin-technical-post-skill`, `newsletter-article-skill`, `carousel-outline-skill`, `checklist-framework-skill` |
+Las skills se agrupan por área funcional dentro de la carpeta `skills/`.
 
----
+Cada área puede tener su propio README con:
 
-## Skills de herramientas de calidad
+- propósito;
+- skills incluidas;
+- entradas esperadas;
+- salidas generadas;
+- ejemplos de uso;
+- límites y criterios de revisión.
 
-Las herramientas de calidad se organizan como skills internas con alcance específico.
-
-| Skill | Propósito |
-|---|---|
-| `spc-process-control-skill` | Apoyar análisis de estabilidad, selección de cartas de control, interpretación de señales y planes de reacción. |
-| `msa-measurement-systems-skill` | Estructurar estudios de sistemas de medición por variables, atributos, sesgo, linealidad, estabilidad y acuerdo. |
-| `process-capability-skill` | Apoyar interpretación de Cp, Cpk, Pp, Ppk y desempeño frente a especificación. |
-| `root-cause-capa-skill` | Estructurar investigación de causa raíz, contención, acciones correctivas, acciones preventivas y verificación de efectividad. |
-| `fmea-control-plan-skill` | Conectar modos de falla, riesgos, controles preventivos, controles de detección y planes de control. |
-| `pareto-aql-inspection-skill` | Priorizar defectos, reclamos o hallazgos usando Pareto, AQL, muestreo e interpretación de inspección. |
-| `doe-industrial-experiments-skill` | Estructurar experimentos industriales con factores, niveles, respuesta, supuestos, análisis y validación. |
-
-Estas skills están orientadas a mejorar la interpretación técnica y la toma de decisiones operativas. No sustituyen la validación del profesional responsable.
+El README principal se mantiene como una vista general del repositorio. El detalle operativo de cada grupo de skills debe vivir en su carpeta correspondiente.
 
 ---
 
@@ -73,13 +60,11 @@ Estas skills están orientadas a mejorar la interpretación técnica y la toma d
 
 ### Calidad y mejora continua
 
-- Revisar estabilidad de procesos mediante SPC.
-- Evaluar sistemas de medición antes de interpretar variación del proceso.
-- Analizar capacidad de proceso frente a especificaciones.
-- Estructurar investigaciones de causa raíz y CAPA.
-- Conectar FMEA con controles actuales y planes de control.
-- Priorizar defectos, reclamos o hallazgos mediante Pareto y AQL.
-- Diseñar experimentos industriales con una pregunta técnica clara.
+- Revisar estabilidad, capacidad y desempeño de procesos.
+- Evaluar sistemas de medición antes de interpretar variación operacional.
+- Estructurar investigaciones de causa raíz y acciones correctivas.
+- Priorizar defectos, reclamos o hallazgos con criterios técnicos.
+- Conectar riesgos, controles y planes de reacción.
 
 ### Analítica aplicada
 
